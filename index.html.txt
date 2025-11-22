@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IronCore Fitness</title>
+
+<style>
+    body { margin:0; font-family: Arial, sans-serif; background:#111; color:#fff; }
+    header { background:#000; padding:20px; text-align:center; }
+    header h1 { margin:0; font-size:32px; color:#f93; letter-spacing:2px; }
+
+    nav { background:#222; padding:10px; text-align:center; }
+    nav a { margin:0 15px; color:#f93; text-decoration:none; font-weight:bold; }
+
+    .hero {
+        background:url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438') center/cover no-repeat;
+        height:60vh; display:flex; align-items:center; justify-content:center; text-align:center;
+    }
+    .hero h2 { font-size:40px; background:rgba(0,0,0,0.6); padding:20px; border-radius:10px; }
+
+    .section { padding:50px 20px; text-align:center; }
+    .section h2 { color:#f93; font-size:32px; margin-bottom:20px; }
+
+    .services { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+    .card {
+        background:#222; padding:20px; width:280px; border-radius:10px;
+        box-shadow:0 0 10px rgba(255,153,0,0.4);
+    }
+    .card h3 { color:#f93; }
+
+    footer {
+        background:#000; padding:20px; text-align:center;
+        color:#aaa; margin-top:40px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>IronCore Fitness</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#trainers">Trainers</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2>Build Strength. Build Confidence. Build Yourself.</h2>
+</section>
+
+<section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Personal Training</h3>
+            <p>One-on-one sessions designed to reach your fitness goals faster.</p>
+        </div>
+        <div class="card">
+            <h3>Strength Training</h3>
+            <p>Professional equipment and programs for muscle building.</p>
+        </div>
+        <div class="card">
+            <h3>Cardio & CrossFit</h3>
+            <p>High-energy workouts to boost stamina and burn calories.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="trainers">
+    <h2>Meet Our Trainers</h2>
+    <p>Certified and experienced fitness experts to guide your journey.</p>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@ironcorefitness.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Location: Your City, India</p>
+</section>
+
+<footer>
+    © 2025 IronCore Fitness. All Rights Reserved.
+</footer>
+
+</body>
+</html>
